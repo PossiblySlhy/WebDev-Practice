@@ -1,0 +1,26 @@
+/* Write your code here: */
+/* Goal 1: Target h1 and h2 to both have blueviolet text */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Goal 2: Use child selector to set color of first p tag to firebrick */
+.box > p {
+    color: firebrick;
+}
+
+/* Goal 3: Use descendant selector to set color of li elements to blue */
+.box li {
+    color: blue;
+}
+
+/* Goal 4: Use chaining selector to set color of last two bullet points to seagreen */
+li.done {
+    color: seagreen;
+}
+
+/* Goal 5: Combine selectors to make the "other items" text 0.5rem */
+ul > p.done {
+    font-size: 0.5rem;
+}
